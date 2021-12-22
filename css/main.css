@@ -1,0 +1,35 @@
+:root {
+  --tile-size: 32px;
+  --grid-gap: 1px;
+  --grid-padding: 1px;
+}
+
+.grid-container {
+  display: grid;
+  grid-column-gap: var(--grid-gap);
+  grid-gap: var(--grid-gap);
+  grid-template-columns:
+    var(--tile-size) var(--tile-size) var(--tile-size) var(--tile-size)
+    var(--tile-size) var(--tile-size) var(--tile-size) var(--tile-size)
+    var(--tile-size) var(--tile-size) var(--tile-size) var(--tile-size)
+    var(--tile-size) var(--tile-size) var(--tile-size) var(--tile-size);
+  padding: var(--grid-padding);
+}
+
+div > div {
+  background-color: cornflowerblue;
+  height: var(--tile-size);
+  width: var(--tile-size);
+}
+
+.snakeHeadTile {
+  background-color: black;
+}
+
+.snakeBodyTile {
+  background-color: red;
+}
+
+.foodTile {
+  background-color: greenyellow;
+}
