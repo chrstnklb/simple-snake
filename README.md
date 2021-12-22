@@ -1,15 +1,15 @@
-# Try me first
+# Try me
 
 <h1>
 
-**👉🏽 [Link to the game!](https://drakethesnake.netlify.app/) 🐍**
+<a href="https://drakethesnake.netlify.app/" target="_blank">Play the game! 🐍</a>
 
 </h1>
 
 <br>
 
 # READ.ME
-## ___The classic snake game.___
+The classic snake game.
 
 <br>
 
